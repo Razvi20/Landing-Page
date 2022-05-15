@@ -1,0 +1,62 @@
+/* ## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+- Soft Magenta: hsl(300, 69%, 71%) */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(./images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+
+.logo {
+  width: 70%;
+}
+
+.text-header {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.info {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.btn-danger {
+  background-color: #fff !important;
+  padding: 1.3rem 6rem;
+  border-radius: 50px;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.6rem;
+}
+
+.btn-danger:hover {
+  background-color: hsl(300, 69%, 71%) !important;
+  color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.215);
+}
+
+.ic {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+
+.ic:hover {
+  color: hsl(300, 69%, 71%);
+  border: 2px solid hsl(300, 69%, 71%);
+}
+
+.footer {
+  margin-top: 6rem;
+}
